@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <?xml-model href="Automobile.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
+ <products >
+    <product>
+      <id>CAR1304</id>
+      <name>Lambo</name>
+      <price>1100000</price>
+      <quantity>5</quantity>
+      <category>Car</category>
+    </product>
+    <product>
+      <id>TRUCK2013</id>
+      <name>TATA_Signa</name>
+      <price>5000000</price>
+      <quantity>7</quantity>
+      <category>Trucks</category>
+    </product>
+    <product>
+      <id>MB2003</id>
+      <name>KTM_Duke</name>
+      <price>730000</price>
+      <quantity>1</quantity>
+      <category>Motor_Bikes</category>
+    </product>
+  </products>

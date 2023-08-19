@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT products (product+)>
+  <!ELEMENT product (id, name, price, quantity, category)>
+  <!ATTLIST id pid ID #REQUIRED>
+  <!ELEMENT name (#PCDATA)>
+  <!ELEMENT price (#PCDATA)>
+  <!ELEMENT quantity (#PCDATA)>
+  <!ELEMENT category (#PCDATA)>
